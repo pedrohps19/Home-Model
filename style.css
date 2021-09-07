@@ -1,0 +1,371 @@
+* {
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.barra-menu {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    background-color: black;
+}
+
+.img-menu {
+    flex: 2;
+    margin: auto;
+}
+
+.menu {
+    flex: 2;
+    margin: auto;
+    text-align: end;   
+}
+
+.menu ul li {
+    display: inline;
+    list-style: none;
+    margin-right: 3%;
+    font-size: 16pt;
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+.entrar {
+    background-color: #C8992F;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 0 0 0 -2% ;
+}
+
+.entrar a {
+    color: black;
+}
+
+.cadastrar {
+    background-color: white;
+    padding: 8px;
+    border-radius: 15px;
+    margin: 0 0 0 -2%;
+}
+
+.cadastrar a {
+    color: black;
+}
+
+/* Apresentação */
+
+.bg-apresentacao {
+    background-image: url("img/fundo-capa.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.capa-apresentacao {
+    width: 100%;
+    height: 500px;
+    margin: auto;
+}
+
+.capa-apresentacao h1, p {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.capa-apresentacao h1{
+    padding-top: 200px;
+    color: #06090D;
+}
+
+.capa-apresentacao p {
+    background-color: #C8992F;
+    margin-top: 2%;
+    width: 120px;
+    padding: 10px;
+    border: solid #BF8415 3px;
+    border-radius: 18px
+}
+
+.capa-apresentacao a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Casas */
+
+.caixa-casas {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10vh 5vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.casas {
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+}
+
+.casas h3 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.casas img {
+    width: 300px;
+    height: 230px;
+}
+
+/* Apartamentos */
+
+.caixa-apatos {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10vh 5vh;
+    
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.apatos {
+    width: 100%;
+    height: 500px;
+    margin-top: 20%;
+}
+
+.apatos h3 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apatos img {
+    width: 300px;
+    height: 230px;
+}
+
+/* Roda pé */
+
+.fim {
+    margin-top: 20%;
+}
+
+.footer-topo {
+    width: 100%;
+    height: 10px;
+    background-color: #BF8415;
+}
+
+.rodape {
+    width: 100%;
+    height: 100px;
+    background-color: black;
+}
+
+.rodape p {
+    font-size: 1.5rem;
+    color: white; 
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 30px;
+}
+
+
+/* Página Entrar */
+
+.pagina-entrar {
+    background-color: rgba(0, 0, 0, 0.959);
+}
+
+.tela-entrar {
+    background-color: rgba(255, 233, 233, 0.966);
+    margin: 7% auto;
+    width: 400px;
+    height: 500px;
+    text-align: center;
+    border: solid #BF8415 2px;
+    border-radius: 10px;
+    
+}
+
+.campos h2 {
+    font-weight: 500;
+    padding: 10px;
+    margin-top: 30px;
+}
+
+.entrar-campos {
+    display: inline-block;
+
+}
+
+.campo-email  {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 60px 0 30px 0;
+    align-items: center;
+    border-radius: 35px;
+    border-color: #BF8415;
+}
+
+.campo-senha {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 15px 0 40px 0;
+    align-items: center;
+    border-radius: 35px;
+    border-color: #BF8415;
+}
+
+input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-entrar {
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.btn-es {
+    width: 40%;
+    height: 35px;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 1em;
+    color: white;
+    cursor: pointer;
+    background-color: black;
+}
+
+.btn-es a{
+    text-decoration: none;
+    color: white;
+}
+
+.btn-es span {
+        position:absolute; 
+        width:100%;
+        height:100%;
+        top:0;
+        left: 0;
+      
+        z-index: 1;
+      
+        /* fixes overlap error in IE7/8, 
+           make sure you have an empty gif */
+        background-image: url('empty.gif'); 
+}
+
+button:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+.btn-entrar:hover {
+    background: #BF8415;
+    transition-delay: 90ms;
+}
+.btn-es:hover  {
+    background: #BF8415;
+    transition-delay: 90ms;
+}
+
+/* Página de Cadastro */
+
+.campo-nome {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 50px 0 40px 0;
+    align-items: center;
+    border-radius: 35px;
+    border-color: #BF8415;
+}
+
+.campo-email-cdt {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 15px 0 40px 0;
+    align-items: center;
+    border-radius: 35px;
+    border-color: #BF8415;
+}
+
+.tela-entrar-cdt {
+    background-color: rgba(255, 233, 233, 0.966);
+    margin: 5% auto;
+    width: 400px;
+    height: 600px;
+    text-align: center;
+    border: solid #BF8415 2px;
+    border-radius: 10px;
+}
+
+
+/* Página Recuperação de Senha */
+
+.entrar-campos-cdg {
+    margin-top: 50px;
+}
+
+.campo-codigo {
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2em;
+    margin: 10px 0 40px 0;
+    align-items: center;
+    text-align: center;
+    border-style: none;
+    border-bottom: #BF8415 1px solid;
+    border-spacing: 10px;
+    letter-spacing: 45px;
+    
+}
+
+/* Código para tirar setas do input (type number) na página Recuperar Senha (StackOverflow) */
+input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+/* Código para tirar setas do input (type number) na página Recuperar Senha (StackOverflow) */
+
+
+
+
+/*adicionar Hover nas imagens casas/apat */

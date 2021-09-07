@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/logo.png" />
+    <title>Document</title>
+</head>
+<body class="pagina-entrar">
+    <section class="tela-entrar-cdt">
+        <div class="campos">
+            <h2>Faça seu cadastro</h2>
+                <form method="POST" action="entrar.html">   
+                    <div class="entrar-campos">
+                            <input type="text" name="Nome" class="campo-nome" placeholder="Nome Completo" required autofocus pattern="[A-Za-z- ']{4,}" title="O nome precisa ter pelo menos 4 caracteres!">
+                            <input type="email" class="campo-email-cdt" placeholder="E-mail" required >
+                            <input type="password" class="campo-senha" placeholder="Senha" required>
+                            <input type="password" class="campo-senha" placeholder="Repita a Senha" required>
+                        </div>
+                    
+                    <button type="submit" class="btn-entrar">Cadastrar</button>
+                        <br><br>
+                    Já é cadastrado ? <a href="entrar.html">Entre agora</a>
+</form>
+        </div>
+
+    </section>
+</body>
+</html>
